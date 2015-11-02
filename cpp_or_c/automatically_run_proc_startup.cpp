@@ -1,5 +1,8 @@
 /*
-PoC to automatically run program on startup
+PoC to automatically run program on startup...
+
+Run a program automatically when Windows starts
+
 tested at windows 7, windows XP
 */
 #include <iostream>
