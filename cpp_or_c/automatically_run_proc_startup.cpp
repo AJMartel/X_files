@@ -45,3 +45,35 @@ int main(int argc, char *argv[])
  system("PAUSE");
  return EXIT_SUCCESS;
 }
+/*
+Other options
+
+ You can run an application automatically by writing a value entry (a complete name/value pair) to any of the following registry keys (I'll use abbreviations here for the top-level keys):
+
+HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
+    Launches a program automatically when a particular user logs in. This key is used when you always want to launch a program when a particular user is using a system.
+
+HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce
+
+    Launches a program the next time the user logs in and removes its value entry from the registry. This key is typically used by installation programs.
+
+HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+
+    Launches a program automatically at system startup. This key is used when you always want to launch a program on a particular system.
+
+HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce
+
+    Launches a program the next time the system starts and removes its value entry from the registry. This key is typically used by installation programs.
+
+HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices
+
+    Launches a service (a standard NT service or a background process) automatically at startup. An example of a service is a Web server such as Microsoft Internet Information Server.
+
+HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
+
+    Launches a service (a standard NT service or a background process) the next time the system is started, then removes its value entry from the registry.
+
+
+
+*/
