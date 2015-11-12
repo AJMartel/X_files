@@ -1,7 +1,8 @@
 #include <windows.h>
 
 // i improve this func https://msdn.microsoft.com/en-us/library/windows/desktop/ms724834%28v=vs.85%29.aspx
-char * SetOperatingSystem() 
+// return windows version
+char * OperatingSystemVersion() 
 {
     OSVERSIONINFOEX VersionOS;
     VersionOS.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
