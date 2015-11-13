@@ -76,7 +76,7 @@ bool check_debbuger_by_query()
 
  
     	while(i<Num)
-	    {
+	{
         	unsigned long Addr= ((API_INFORMATION->WorkingSetInfo[i].VirtualPage))<<0x0C;
 
         	if(Addr==(GetCurrentEIP()&0xFFFFF000))
