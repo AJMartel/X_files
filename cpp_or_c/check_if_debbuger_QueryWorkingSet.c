@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "windows.h"
 #include "stdio.h"
- // check if have debbuger using K32QueryWorkingSet
+ // check if have debbuger, using QueryWorkingSet
 // reference https://msdn.microsoft.com/en-us/library/windows/desktop/ms684946%28v=vs.85%29.aspx
  
 typedef union _PSAPI_WORKING_SET_BLOCK {
