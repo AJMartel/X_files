@@ -44,7 +44,7 @@ bool check_debbuger_by_query()
 	bool debugger_present = false;
 
 
-	    if(!QueryWorkingSet)
+	if(!QueryWorkingSet)
     	{
         	printf("Can't resolve address\r\n");
         	return 0;
