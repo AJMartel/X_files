@@ -89,7 +89,7 @@ bool check_debbuger_by_query()
                 		break;
             		}
         	}
-		      i++;
+		i++;
     	}
  
     	return debugger_present;
