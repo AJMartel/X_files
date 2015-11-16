@@ -94,6 +94,4 @@ bool check_debbuger_by_query()
  
     	return debugger_present;
 
- 
-    exit(0);
 }
