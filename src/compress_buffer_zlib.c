@@ -100,7 +100,7 @@ int UncompressBuffer(unsigned char **dest, const unsigned char *src, unsigned in
 	return ret;
 }
 
-int main(void)
+int example(void)
 {
 	unsigned char *compressed = { 0 }, *uncompressed = { 0 };
 	unsigned int compressedLen = 0, uncompressedLen = 0;

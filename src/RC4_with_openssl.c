@@ -20,7 +20,7 @@ bool GenerateKeys(const unsigned char *password, int plen, unsigned char *rc4Sal
 int Encrypt(char **cipher, const char *plain, int plen, const unsigned char *rc4Key);
 int Decrypt(unsigned char **plain, const char *cipher, int clen, const unsigned char *rc4Key);
 
-int main(void)
+int example(void)
 {
 	const unsigned char *password = "this is your KEY morpheus \0";
 	unsigned char rc4Salt[PKCS5_SALT_LEN + 1] = { 0 };
