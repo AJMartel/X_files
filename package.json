@@ -1,0 +1,9 @@
+{
+    "name": "X_files",
+    "version": "1.1.1",
+    "repo": "CoolerVoid/x_files",
+    "description": "This is a compendium of strange underground codes to make a joke, forbidden recipes, fallen functions... only to Windows platforms.",
+    "keywords": ["infosec", "hacking", "windows", "lulz"],
+    "license": "MIT",
+    "src" : ["src/automatically_run_proc_startup.cpp","src/automatically_run_proc_startup.hpp","src/check_if_debbuger_QueryWorkingSet.c","src/check_if_debbuger_QueryWorkingSet.h","src/check_if_use_sandbox.c","src/check_if_use_sandbox.h","src/check_run_at_admin.c","src/check_run_at_admin.h","src/compress_buffer_zlib.c","src/compress_buffer_zlib.h","src/DisableTaskManager.c","src/DisableTaskManager.h","src/hide_file.c","src/hide_file.h","src/RC4_with_openssl.c","src/RC4_with_openssl.h","src/RegistryKey_manager.c","src/RegistryKey_manager.h","src/ret_OS_version.c","src/ret_OS_version.h","src/unkillable_process.c","src/unkillable_process.h"]
+}
